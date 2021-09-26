@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_PQ1TsB2cEeyohI-F3nx52Q" name="conexion-mysql-db-caba" id="_KV4coB2cEeyohI-F3nx52Q" label="conexion-mysql-db-caba" dataPackage="_zgmIEB55EeyMmokNRBazwQ" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://127.0.0.1:3306/db_caba?noDatetimeStringSync=true" dbVersionString="MYSQL_8" Port="3306" Username="db_user" Password="enc:system.encryption.key.v1:6pmzEaeuAgiRPx2kwub8eGsaIPS4HALuj8/9tPPZkQOlssdkhbw9VD/xgQk=" ServerName="127.0.0.1" SID="db_caba" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false">
+    <taggedValue xmi:id="_PQ1TsR2cEeyohI-F3nx52Q" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_PRJcwB2cEeyohI-F3nx52Q" tag="package filter" value=""/>
+    <taggedValue xmi:id="_PRSmsB2cEeyohI-F3nx52Q" tag="Status" value=""/>
+    <taggedValue xmi:id="_PRSmsR2cEeyohI-F3nx52Q" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_PRSmsh2cEeyohI-F3nx52Q" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_PRSmsx2cEeyohI-F3nx52Q" tag="Description" value=""/>
+    <taggedValue xmi:id="_PRSmtB2cEeyohI-F3nx52Q" tag="Author" value=""/>
+    <taggedValue xmi:id="_PRSmtR2cEeyohI-F3nx52Q" tag="otherParameter"/>
+    <taggedValue xmi:id="_PUgSwB2cEeyohI-F3nx52Q" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_PUgSwR2cEeyohI-F3nx52Q" tag="DB ProductVersion" value="8.0.26"/>
+    <taggedValue xmi:id="_PUgSwh2cEeyohI-F3nx52Q" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_PQ1Tsh2cEeyohI-F3nx52Q" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_zgmIEB55EeyMmokNRBazwQ" name="db_caba" dataManager="_PQ1TsB2cEeyohI-F3nx52Q"/>
+</xmi:XMI>

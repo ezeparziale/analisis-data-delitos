@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_CZ-HAB5BEeyOhLd-bfRHsA" name="franja_horarias" id="_CZyg0B5BEeyOhLd-bfRHsA" dataPackage="_CZ-HAR5BEeyOhLd-bfRHsA" Server="Localhost 127.0.0.1" FilePath="C:/analisis-data-delitos/extras/franja_horaria.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_CZ-HAR5BEeyOhLd-bfRHsA" name="default" dataManager="_CZ-HAB5BEeyOhLd-bfRHsA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_CZ-HAh5BEeyOhLd-bfRHsA" id="_ym0-YB5AEeyOhLd-bfRHsA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CZ-HAx5BEeyOhLd-bfRHsA" label="franja_horaria" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CZ-HBB5BEeyOhLd-bfRHsA" label="parte_dia" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

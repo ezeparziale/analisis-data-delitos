@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Ov7XUB2iEeyohI-F3nx52Q" name="delitos_2020" dataPackage="_Ov7XUR2iEeyohI-F3nx52Q" Server="Localhost 127.0.0.1" FilePath="C:/temp/datosabiertos/datasets/ministerio-de-justicia-y-seguridad/delitos/delitos_2020.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Ov7XUR2iEeyohI-F3nx52Q" name="default" dataManager="_Ov7XUB2iEeyohI-F3nx52Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Ov7XUh2iEeyohI-F3nx52Q" id="_CyswUB2iEeyohI-F3nx52Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XUx2iEeyohI-F3nx52Q" label="id_mapa" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XVB2iEeyohI-F3nx52Q" label="anio" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XVR2iEeyohI-F3nx52Q" label="mes" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XVh2iEeyohI-F3nx52Q" label="dia" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XVx2iEeyohI-F3nx52Q" label="fecha" length="-1" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XWB2iEeyohI-F3nx52Q" label="franja" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XWR2iEeyohI-F3nx52Q" label="tipo" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XWh2iEeyohI-F3nx52Q" label="subtipo" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XWx2iEeyohI-F3nx52Q" label="uso_armas" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XXB2iEeyohI-F3nx52Q" label="barrio" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XXR2iEeyohI-F3nx52Q" label="comuna" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XXh2iEeyohI-F3nx52Q" label="latitud" length="20" precision="9" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XXx2iEeyohI-F3nx52Q" label="longitud" length="20" precision="9" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ov7XYB2iEeyohI-F3nx52Q" label="victimas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
