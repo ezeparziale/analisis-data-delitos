@@ -35,7 +35,7 @@ Requisitos:
 https://powerbi.microsoft.com/es-es/
 ```
 
-El archivo del tablero es "Analisis delitos CABA .pbix"
+El archivo del tablero es ***"Analisis delitos CABA .pbix"***
 
 
 &nbsp;
@@ -55,7 +55,7 @@ Los datos de la base de datos son:
   * delitos_historicos
   * talend_stats
 
-Se utilizo MySQL pero podria reemplazarse con cualquier otro tipo de base de datos.
+*Se utilizo MySQL pero podria reemplazarse con cualquier otro tipo de base de datos.*
 
 &nbsp;
 
@@ -88,7 +88,7 @@ https://medium.com/@devkosal/switching-java-jdk-versions-on-macos-80bc868e686a
 1. Clonar repositorio
 
 ```url
-http://
+https://github.com/ezeparziale/analisis-data-delitos
 ```
 
 2. Descargar Talend Open Studio
