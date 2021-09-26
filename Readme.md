@@ -120,8 +120,6 @@ docker-compose -f "docker-compose.yaml" up -d
 
 Dentro del workspace se encuentran los siguientes jobs:
 
-&nbsp;
-
 * Delitos_2019
   
 Descarga el archivo CSV y lo guarda en la base de datos MySQL, tabla "delitos_2019"
