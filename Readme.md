@@ -24,6 +24,18 @@ https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ministerio-de-justicia-y-s
 
 El proceso de tranformación se realizó con la app Talent Open Studio.  
 
+- [X] Descarga de archivos csv 
+- [X] Guardado en base de datos MySQL
+- [X] Selección de campos a utilizar
+- [X] Normalización de campos
+- [X] Quitado de espacios en los campos
+- [X] Mayusculas en todos los campos
+- [X] Corrección de fechas
+- [X] Agregar información extra de franjas horarias
+- [X] Unión de los data set limpios de 2019 y 2020
+- [X] Guardado de los datos finales en la base de datos MySQL
+- [X] Export en formato CSV
+
 &nbsp;
 
 ## Visualización
@@ -138,7 +150,7 @@ Descarga el archivo CSV y lo guarda en la base de datos MySQL, tabla "delitos_20
 &nbsp;
 * Delitos_historicos
 
-Se procesan las tablas "delitos_2019" y "delitos_2020", se normalizan campos y se vincula la info del csv llamado "./extras/franja_horaria.csv"
+Se procesan las tablas "delitos_2019" y "delitos_2020", se normalizan campos y se vincula la info del csv llamado "./extras/franja_horaria.csv". Se exporta la información final al archivo ***"./csv/delitos_historicos.csv"***
 
 ![image](./img/job_delitos_historicos.png)
 
@@ -164,6 +176,7 @@ analisis-data-delitos
 └───csv
 |   │   delitos_2019.csv
 |   │   delitos_2020.csv
+|   |   delisto_historicos.csv
 |   | 
 └───db_data
 |   │   ...
@@ -172,7 +185,7 @@ analisis-data-delitos
 |   │   franja_horaria.csv
 |   |
 └───img
-|   │   portada.jpg
+|   │   ...
 |   |
 └───map
 |   │   map_barrios.topojson
