@@ -37,6 +37,8 @@ https://powerbi.microsoft.com/es-es/
 
 El archivo del tablero es ***"Analisis delitos CABA .pbix"***
 
+![image](./img/tablero_powerbi.png)
+
 
 &nbsp;
 
@@ -124,20 +126,30 @@ Dentro del workspace se encuentran los siguientes jobs:
   
 Descarga el archivo CSV y lo guarda en la base de datos MySQL, tabla "delitos_2019"
 
+![image](./img/job_delitos_2019.png)
+
 &nbsp;
 * Delitos_2020
  
 Descarga el archivo CSV y lo guarda en la base de datos MySQL, tabla "delitos_2020"
+
+![image](./img/job_delitos_2020.png)
 
 &nbsp;
 * Delitos_historicos
 
 Se procesan las tablas "delitos_2019" y "delitos_2020", se normalizan campos y se vincula la info del csv llamado "./extras/franja_horaria.csv"
 
+![image](./img/job_delitos_historicos.png)
+
+
 &nbsp;
 * Job_Recarga_Delitos_CABA
 
 Es el job principal que ejecuta los job de transformaciones en el siguiente orden: "delitos_2019" >> "delitos_2020" >> "Delitos_historicos"
+
+![image](./img/job_delitos.png)
+
 
 &nbsp;
 
