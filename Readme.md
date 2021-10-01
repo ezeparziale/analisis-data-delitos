@@ -187,6 +187,7 @@ analisis-data-delitos
 |   |
 └───extras
 |   │   franja_horaria.csv
+|   |   poblacion.xlsx
 |   |
 └───img
 |   │   ...
@@ -211,4 +212,9 @@ analisis-data-delitos
 Datos publicos del gobierno de la ciudad:
 ```url
 https://data.buenosaires.gob.ar/dataset/delitos
+```
+
+Datos estadisticos de poblicacion, superficie y densidad de población
+```url
+https://www.estadisticaciudad.gob.ar/eyc/?p=76599
 ```
