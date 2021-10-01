@@ -51,6 +51,10 @@ El archivo del tablero es ***"Analisis delitos CABA .pbix"***
 
 ![image](./img/tablero_powerbi.png)
 
+```url
+https://app.powerbi.com/view?r=eyJrIjoiMWViZDM5OGEtMTVmOC00ZmExLTkwYTMtNjRlYzk3NzJkZjRiIiwidCI6IjViODA2NTZiLWQ2Y2ItNDYwMC1iNGRlLTExNDlhYTUxNTUwYSIsImMiOjR9&pageName=ReportSection
+```
+
 
 &nbsp;
 
