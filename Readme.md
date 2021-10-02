@@ -1,6 +1,7 @@
 # Análisis de datos de delitos CABA
 
-Se realiza un proceso etl utilizando los datos publicos de delitos de CABA brindado por el gobierno de la ciudad autonoma de buenos aires.
+Se realiza un proceso etl utilizando los datos publicos de delitos de CABA brindado por el gobierno de la ciudad autonoma de buenos aires.  
+Se busca indentificar si la pandemia afecto en la cantidad de delitos, además analizar sus zonas, horarios, dias, barrios y comunas.
 
 &nbsp;
 
@@ -49,7 +50,9 @@ https://powerbi.microsoft.com/es-es/
 
 El archivo del tablero es ***"Analisis delitos CABA .pbix"***
 
-![image](./img/tablero_powerbi.png)
+![image](./img/tablero_powerbi.png)  
+
+Tambien se puede acceder a la versión cloud del tablero publico en el siguiente link:
 
 ```url
 https://app.powerbi.com/view?r=eyJrIjoiMWViZDM5OGEtMTVmOC00ZmExLTkwYTMtNjRlYzk3NzJkZjRiIiwidCI6IjViODA2NTZiLWQ2Y2ItNDYwMC1iNGRlLTExNDlhYTUxNTUwYSIsImMiOjR9&pageName=ReportSection
@@ -101,12 +104,18 @@ https://java.tutorials24x7.com/blog/how-to-install-java-8-on-windows-10
 https://medium.com/@devkosal/switching-java-jdk-versions-on-macos-80bc868e686a
 ```
 
+* Git
+  
+```url
+https://git-scm.com
+````
+
 &nbsp;
 
 1. Clonar repositorio
 
 ```url
-https://github.com/ezeparziale/analisis-data-delitos
+git clone https://github.com/ezeparziale/analisis-data-delitos.git .
 ```
 
 2. Descargar Talend Open Studio
