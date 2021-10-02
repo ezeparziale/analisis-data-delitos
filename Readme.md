@@ -227,3 +227,13 @@ Datos estadisticos de poblicacion, superficie y densidad de población
 ```url
 https://www.estadisticaciudad.gob.ar/eyc/?p=76599
 ```
+
+Nota diario Clarin:
+```url
+https://www.clarin.com/policiales/mapa-delito-porteno-indice-inseguridad-robos-violentos_0_8DU3T0_Uy.html
+```
+
+Nota diario La Nación:
+```url
+https://www.lanacion.com.ar/seguridad/los-delitos-bajaron-37-a-nivel-mundial-por-las-restricciones-en-la-pandemia-nid02062021/
+```
