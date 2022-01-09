@@ -1,11 +1,11 @@
-# Análisis de datos de delitos CABA
+# 🔫 Análisis de datos de delitos CABA
 
 Se realiza un proceso etl utilizando los datos publicos de delitos de CABA brindado por el gobierno de la ciudad autonoma de buenos aires.  
 Se busca indentificar si la pandemia afecto en la cantidad de delitos, además analizar sus zonas, horarios, dias, barrios y comunas.
 
 &nbsp;
 
-## Fuente de datos
+## 📰 Fuente de datos
 
 Los datos utilizados son de los años 2019 y 2020 para nuestro análisis.
 
@@ -21,7 +21,7 @@ https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ministerio-de-justicia-y-s
 
 &nbsp;
 
-## Proceso
+## 💻 Proceso
 
 El proceso de tranformación se realizó con la app Talent Open Studio.  
 
@@ -39,7 +39,7 @@ El proceso de tranformación se realizó con la app Talent Open Studio.
 
 &nbsp;
 
-## Visualización
+## 📊 Visualización
 
 Requisitos:
 
@@ -61,7 +61,7 @@ https://app.powerbi.com/view?r=eyJrIjoiMWViZDM5OGEtMTVmOC00ZmExLTkwYTMtNjRlYzk3N
 
 &nbsp;
 
-## Base de datos
+## 🗂️ Base de datos
 
 Los datos de la base de datos son:  
 - **Tipo:** MySQL  
@@ -80,7 +80,7 @@ Los datos de la base de datos son:
 
 &nbsp;
 
-## Instalación
+## 💾 Instalación
 
 Requisitos:
 
@@ -133,7 +133,7 @@ Recomendado en windows dejarlo en ***C:\talend***
 
 &nbsp;
 
-## Ejecución
+## 🏃‍♂️ Ejecución
 
 1. Ejecutar Talend e importar el workspace que se encuentra dentro de la carpeta ***"talend"*** dentro del repositorio.
 
@@ -178,7 +178,7 @@ Es el job principal que ejecuta los job de transformaciones en el siguiente orde
 
 &nbsp;
 
-## Estructura de carpetas
+## 📂 Estructura de carpetas
 
 ```
 analisis-data-delitos
@@ -216,7 +216,7 @@ analisis-data-delitos
 
 
 
-## Bibliografia
+## 📚 Bibliografia
 
 Datos publicos del gobierno de la ciudad:
 ```url
